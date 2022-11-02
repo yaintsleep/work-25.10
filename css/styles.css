@@ -29,6 +29,8 @@ body {
 }
 
 .header-list {
+  display: flexbox;
+  justify-content: space-between;
 }
 
 .header-nav-item {
@@ -37,8 +39,23 @@ body {
   line-height: calc(16 / 14);
   text-transform: uppercase;
   color: var(--header-text-color);
+  width: 192px;
+  height: 24px;
+}
+.header-text-box {
+  width: 192px;
+  height: 24px;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 16px;
+  padding-bottom: 15px;
+}
+.header-esc {
+  padding-top: 400px;
 }
 
 .header-nav-item:hover {
   background-color: #1b5583;
+  width: 192px;
+  height: 24px;
 }
