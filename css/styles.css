@@ -1,0 +1,44 @@
+/* GENERAL STYLES */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+  color: #212121;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+:root {
+  --dark-background-color: #0e294b;
+  --black-text-color: #212121;
+  --header-text-color: #c1caca;
+  --light-background: #c1caca;
+}
+
+/*  MAIN */
+
+.list,
+.item {
+  text-decoration: none;
+  list-style: none;
+}
+
+.header {
+  background-color: var(--dark-background-color);
+  width: 228px;
+  height: 823px;
+}
+
+.header-list {
+}
+
+.header-nav-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(16 / 14);
+  text-transform: uppercase;
+  color: var(--header-text-color);
+}
+
+.header-nav-item:hover {
+  background-color: #1b5583;
+}
